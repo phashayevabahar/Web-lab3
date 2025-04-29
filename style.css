@@ -1,0 +1,97 @@
+.main {
+    display: flex;
+    gap: 20px; 
+    margin: 0% 10%; 
+}
+
+.left-side {
+    flex: 1;
+    background-color: midnightblue;
+    color: white;
+    padding: 20px;
+}
+
+.right-side {
+    flex: 2;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.first-and-second-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-side, .right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side h2 {
+    color: darkblue;
+}
+
+.name-section h2 {
+    color: black;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+}
+
+.surname {
+    color: darkblue;
+    font-weight: normal;
+}
+
+.specialization {
+    font-weight: normal;
+}
+
+.contact {
+    line-height: 2.3;
+    color: white;
+}
+.profile-images{
+    width: 350px;
+}
+
+.education {
+    margin-top: 20px;
+}
+.section h2 {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.is-visible {
+    display: block !important;
+}
+
+.delete-btn {
+    display: none;
+    opacity: 1;
+    visibility: visible; 
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+[class$="-item"]:hover .delete-btn {
+    display: inline-block;
+}
+button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
